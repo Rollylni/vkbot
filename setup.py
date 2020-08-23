@@ -3,17 +3,17 @@
 """Library for creating VK Bots"""
 from setuptools import setup
 ############
-import vkbot
+import vkbots
 
 description = open("README.rst").read()
 
 setup(
-    name="vkbot",
-    author=vkbot.__author__,
-    version=vkbot.__version__,
-    license=vkbot.__license__,
-    packages=["vkbot"],
-    keywords="vkbot",
+    name="vkbots",
+    author=vkbots.__author__,
+    version=vkbots.__version__,
+    license=vkbots.__license__,
+    packages=["vkbots"],
+    keywords="vkbots",
     description=__doc__,
     author_email="dimadersekt@gmail.com",
     url="https://github.com/Rollylni/vkbot",
